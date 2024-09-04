@@ -1,0 +1,57 @@
+/* Estilos personalizados */
+
+body {
+	font-family: Arial rgb(255, 255, 255), Times, serif
+}
+
+.navbar {
+	margin-bottom: 15px;
+}
+.navbar {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+}
+body {
+	padding-top: 70px; /* Ajustar segun la altura de la navbar */
+}
+
+<style>
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+.video-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -1;
+	
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(90, 90, 90, 0.5); /* Gris con 50% de opacidad */
+	z-index: -1;
+}
+
+.content {
+	position: relative;
+	z-index: 1;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+</style>
